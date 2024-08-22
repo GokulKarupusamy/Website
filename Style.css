@@ -77,8 +77,8 @@ nav img{
     cursor: pointer;
 }
 .don-btn:hover{
-    border: 1px solid blue;
-    background:blue;
+    border: 1px solid brown;
+    background:brown;
     transition: 1s;
 }
 .nav .fa{
@@ -180,3 +180,44 @@ p{
 
  }
 
+/* ------About us page----- */
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(49, 53, 70, 0.7),rgba(205, 208, 221, 0.7)),url(/images/5237.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: black;
+    
+}
+.sub-header h4{
+    margin-top: 100px;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+.don-btn{
+    border: 1px solid;
+    background: transparent;
+    color: brown;
+}
+.don-btn:hover{
+    color: white;
+}

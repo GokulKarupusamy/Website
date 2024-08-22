@@ -119,6 +119,9 @@ nav img{
     .row{
         flex-direction: column;
     }
+    .footer{
+        flex-direction: column;
+    }
 }
 /* ------ Ends Here ------- */
 .work{
